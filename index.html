@@ -531,9 +531,9 @@ const $=id=>document.getElementById(id);
 const KEYS=["A","B","C","D","E"];
 
 /* ===== CẤU HÌNH GHI NHẬN & EMAIL — chỉnh 2 dòng dưới cho phù hợp ===== */
-const OPERATOR_EMAIL="training@jaxtina.edu.vn"; // email bộ phận Đào tạo (nơi nhận bản ghi kết quả)
-const WEBHOOK_URL="";                            // (tuỳ chọn) dán URL Google Apps Script để tự động ghi vào Google Sheet
-const ORG_NAME="Jaxtina English";
+const OPERATOR_EMAIL="cuonglhv@jaxtina.com"; // email bộ phận Đào tạo (nơi nhận bản ghi kết quả)
+const WEBHOOK_URL="https://script.google.com/macros/s/AKfycbyBls7_07T7Zky3UcfRfM24scv-2MH_KgfMbBDxircPkHbFoBjK9LoJN6NG2muRlP8x/exec";                            // (tuỳ chọn) dán URL Google Apps Script để tự động ghi vào Google Sheet
+const ORG_NAME="Jaxtina English Center";
 
 function countFor(code){ return code==="ALL"?Q.length:Q.filter(q=>q.d.includes(code)).length; }
 
